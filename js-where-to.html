@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JavaScript in Body</title>
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo2").innerHTML = "paragraph changed.";
+            }
+        </script>
+
+    </head>
+<body>
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+
+    <h2>JavaScript in Head</h2>
+
+<p id="demo2">A paragraph.</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+    <br><hr><br>
+
+
+<p id="demo3">A paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+<script>
+    function myFunction() {
+        document.getElementById("demo3").innerHTML = "Paragraph changed.";
+    }
+</script>
+
+<h2>External JavaScript</h2>
+
+<p id="demo4">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p>(myFunction is stored in an external file called "js.js"</p>
+
+<script src="js.js"></script>
+
+
+
+
+
+
+<br><hr><br>
+    <script src=https://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html> 
