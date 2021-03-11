@@ -49,3 +49,11 @@ print(type(z))
 
 import random
 print(random.randrange(1,25))
+
+
+
+a = 9
+b = 5
+b = 7 * a * a + b
+print(b)
+
