@@ -1,0 +1,29 @@
+.lab {
+    border: gray solid 2px;
+    margin: 150px;
+    height: auto;
+}
+
+.inner1 {
+    border-style: ridge; /*ridge makes it double box and alternates colour*/
+    background-color: yellow;
+    border-color: green;
+    border-width: 10px;
+    margin: auto;
+    padding-top: 20px;
+    width: 250px;
+    height: 150px;
+    font-size: 20px;
+}
+    
+
+.inner2 {
+    border: gray solid 4px;
+    background-color: yellow;
+    border-radius: 10px; 
+    margin: auto;
+    width: 250px;
+    height: 150px;
+    padding-top: 20px;
+    font-size: 25px;
+}
