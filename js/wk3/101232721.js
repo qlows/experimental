@@ -5,6 +5,7 @@ const randomN = Math.floor(Math.random() * 10);
 for(var attempts = 1; attempts <= 3; attempts++){ //ask for a number from user
     var guess = prompt("Please enter a number between 0 and 10.");//asks user to enter a number
     if(guess == null){
+        alert("Sad to see you go);
         break;
     }
 
