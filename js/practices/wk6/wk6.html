@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- head is description section, meta tags Seo -->
+    <meta charset="UTF-8">
+    <title>Week 05 CSS and HTML</title> <!-- shows in webpage-->
+    <meta name="keywords" content="week 04, lab, html,CSS,images,selectors,fonts,pseudo selectors">
+    <meta name="description" content="Lab for week 04.
+    This week CSS, images, selectors and exploring more advanced selectors for CSS.">
+    <meta name="author" content="Your Name">
+    <link href="olympics.ico" rel="shortcut icon"> <!-- shows in tab on webpage-->
+    <link href="main6.css" rel="stylesheet"> <!-- link to CSS main -->
+</head>
+<body> <!-- html code -->
+<div id="wrapper">
+
+    <header> <!-- header first semantic element -->
+        <h1>Block and inline elements.</h1> <!-- gives title -->
+        <!-- nav -->
+    
+    </header>
+    <aside>
+    <nav>
+        <ul>
+            <li><a href="#Introduction">Introduction</a></li>
+            <li><a href="#Body">Body</a></li>
+            <li><a href="#Conclusion">Conclusion</a></li>
+        </ul>
+        <!--   <p><a class="button" href="#footer">Footer</a></p>-->
+    </nav>
+</aside>
+
+
+
+    <main> <!-- second semantic element, where all main information is kept (tags paragraph anchor -->
+        <p>This is text block element.</p> <!-- block element. -->
+        <p>This is a block element with a <strong>bold</strong> inline element.</p>
+        <p>This is a block element with a <em><strong>bold and italic</strong></em> inline element.</p>
+
+        <p>Current date displayed using script:</p>
+        <pre>
+                var today = new Date();
+                document.writeln( today.getFullYear() );
+
+               <p id="date"></p>
+                <script>
+                    document.getElementById("date").innerHTML = Date();
+                </script>
+            </pre>
+        <br>
+        <hr>
+        <p style="background-color: darkcyan">Winston Churchill said:</p>
+        <blockquote>"Success is not final, failure is not fatal, it is the courage to continue that counts.”</blockquote>
+        <hr>
+        <p>How to contact YOUR LAB Prof &amp; George Brown College:</p>
+        <address>George Brown College - Casa Loma Campus<br>
+            146 Kendal Ave, Toronto, Ontario<br>
+            M5R 1M3<br>
+            <a href="emailto:azzad.kara@georgebrown.ca">azzad.kara@georgebrown.ca</a>
+        </address>
+
+        <br>
+        <hr>
+        <br>
+        <h2 class="classatt">Attributes</h2>
+        <p class="classatt">Class and ID are attributes that we can place in a tag.</p>
+        <p class="classatt">A class selector identifies more than one tag to be grouped for use in CSS, javascript, etc....</p>
+        <p  class="classatt" id="idatt">ID attribute allows a unique name to be given to one tag for identification in CSS, javascript, etc....</p>
+        <br>
+        <hr>
+        <br>
+        <div> <!-- div tag is parent tag to h3 and 3 paragraphs here-->
+            <h3>Character entities.</h3>
+            <!-- paragraph tags are siblings -->
+            <p>copyright &copy;</p>
+            <p>&ldquo;Have a wonderful day&rdquo;</p>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <h4>Links</h4> <!-- h4 and a-tag are siblings-->
+        <a href="https://my.gblearn.com">My GBlearn</a><br>
+        <p> Great website for HTML5 and CSS <a href="https://www.w3schools.com/">W3 Schools</a></p>
+        <p> Link to my <a href="/index.html"> introduction page on gblearn.root relative</a></p>
+        <p> Link to my <a href="../../../../index.html"> introduction page on gblearn.document relative</a></p>
+        <br>
+        <hr>
+        <br>
+        <h4>List of colors</h4>
+        <!-- <a href="https://w3schools.com">W3 Schools</a>  see main5.css h4+a -->
+
+        <!-- li tags are child tags to h5 -->
+        <!-- inline style should not be used. -->
+        <ul>
+            <h5>Unordered list</h5>
+            <li style="color: blue"> blue</li>
+            <li style="color:green"> green</li>
+            <li style="color:red">red</li>
+        </ul>
+
+        <ol>
+             <h5>Ordered list</h5>
+            <li>blue</li>
+            <li>green</li>
+            <li>red</li>
+        </ol>
+        <!-- <li><a> </a></li> note: anchor tag and href must be with li tag-->
+        <hr>
+    </main>
+
+    <article id="news">
+      <!--  <h4>Lorem Ipsum</h4>-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae commodo felis.</p>
+        <p> Duis nunc mi, mollis id massa vitae, porta gravida nisl. Vestibulum eu turpis consectetur, eleifend elit id, eleifend erat.</p>
+        <p> Nunc libero enim, lacinia vel faucibus vel, posuere tincidunt velit. Donec nec est ut sapien porta luctus. Fusce finibus lobortis tortor eu ornare. </p>
+
+    </article>
+
+    <footer id="footer"> <!-- semantic element to caption images-->
+        <figure> <!-- envelopes images -->
+            <img src="folders_comp1223.jpg" alt="folder structure">
+            <figcaption>Figure 1 Folder Structure</figcaption>
+        </figure>
+        <img src="kilimanjaro.jpg" alt="Mount Kilimanjaro"> <! location of image is in same directory, called document relative -->
+        <img src="kilimanjaro.jpg" alt="Mount Kilimanjaro" height="130" width="200"> <! to adjust width and height
+        (not recommended, used photo editor instead-->
+        <p><a class="button" href="#top">Top of page</a></p>
+    </footer>
+</div>
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>

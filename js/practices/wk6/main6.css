@@ -1,0 +1,152 @@
+*{
+    margin: .5em; /* asterisk is used to normalize defaults of browser css */
+}
+body{              /* body selector used to effect html, eg. property and value */
+    background-color: lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.classatt{         /* class attribute requires '.' applies to everything with same tag (not unique) id is unique */
+    color: rgb(132, 18, 222);
+    font-family: "Times New Roman", Times, serif;
+}
+p{                /* paragraph tag */
+    margin-left: 2em;
+}
+#idatt{            /* id requires '#' --> number-symbol  */
+    font-size: 120%;
+    font-size: 1.4em;
+    font-size: 20px;
+}
+div>p{              /* combination selector */
+    font-size: 120%;
+    color: #0000ff;
+}
+p a{                /* paragraph with child anchor applies to all children, change background color */
+    background-color: lightblue;
+}
+h4+a{
+    background-color: lightseagreen;  /* My Gblearn anchor tag */
+}
+div h3+p{           /* using div with h3+paragraph ---> applies to Character entities*/
+    background-color: lightyellow;
+}
+
+h1,h2,h3,h4,h5,h2.classatt{     /* changes ALL header tags with properties */
+    color: purple;
+    border-bottom: 1px solid gray;
+}
+p a[href="/index.html"]{
+    border: 4px dotted purple; /* draw dotted purple border around paragraph paragraph a tag */
+}
+[href="../../../../index.html"]:hover{ /* draw dotted purple to hover border around  href */
+    border: 4px dotted purple;
+    background-color: transparent;
+}
+
+/* pseudo-elements */
+ol li:first-child{
+    color: blue;
+}
+
+ol li:last-child{
+    color: red;
+}
+ol li:nth-child(2){
+    color: green;
+}
+
+h5:first-letter{    /* pseudo-element first-letter */
+    font-size: 130%;
+    color: darkblue;
+}
+
+/* header font-size & shadow */
+header{
+        font-size: 250%;
+     text-shadow: 4px 3px 4px blue; /*right, down, blur, color;*/
+     border: 5px dashed blue;
+     text-align: center;
+   /*  padding: 1em; /*default /*font-size 16;/*x250%; = 40 pixels;*/
+   /*  margin: 1.5em; /*margin of 40 pixels outside of border */
+     padding: 16px ;/*default font size 16x250% = 40 pixels;*/
+     margin: 24px ; /*margin of 40 pixels outside of border ;*/
+}
+
+ /* box around entire html, creates div selector in html before body tag */
+
+
+
+#wrapper{
+    background-color: paleturquoise;
+    border: 3px solid purple;
+  /*  margin: 5em;   /*2px 5px 3px  (top, right, bottom, left ;*/
+ /*margin: 5em;  /*2px 5px 3px /*(top, right, bottom, left ;*/
+/*margin: 5em; /*2px 5px /*(top, right, bottom, left ;*/
+ margin: 0 auto;  /*0 /*top and bottom, auto left & right */
+ width: 1024px;
+}
+
+
+
+main, aside, article{
+    border: 5px dashed blue;
+    padding: 1em;
+    margin: 4em;
+}
+
+footer{
+    border: 5px dashed blue;
+    padding: 1em;
+    margin: 1.5em;
+}
+
+
+figure img {
+    width: 117px;
+    border: solid black;
+}
+
+
+
+
+figure{
+    overflow: hidden;
+}
+
+
+
+
+.button{
+    text-decoration: none;
+    border: 4px;
+    border-radius: 30px;
+    padding: 6px;
+    box-shadow: 5px 5px 6px blue;
+}
+
+aside {
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+main {
+    width: 62%;
+    float: right;
+}
+
+article  {
+    clear: both;
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 2px solid black;
+}
+
+/*footer {
+    clear: both;
+}*/
+
+
+
+
+

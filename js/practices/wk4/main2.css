@@ -1,0 +1,43 @@
+*{  /* asterisk (*) wildcard, all declarations here will take effect */
+    margin: .5em; /* 5em margin from left */
+}
+body{   /* referencing body tag in wk04 html */
+    background-color: lavender;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.classatt{ /* class selector referencing class attribute in html */
+    color: rgb(132, 18, 222); /* to change text color */
+    font-family: "Times New Roman", Times, serif; /* to change font; uses default if not available */
+}
+p{  /* affects all paragraph tags in html */
+    margin-left: 2em;
+}
+#idatt{ /*  selector, must have # symbol (3 different font-sizes... */
+    font-size: 120%; /* relative value  */
+    font-size: 1.4em; /* relative value */
+    font-size: 20px;  /* absolute value */
+}
+div p{ /* will affect all paragraphs for div in html */
+    font-size: 120%;
+    color: #0000ff;
+}
+p a{ /* will affect all anchor tags for paragraph tags in html */
+    background-color: lightblue;
+}
+h1, h2, h3, h4, h5, h2.classatt {
+    color: tan;
+}
+ul{
+    list-style: none;
+    list-style: square;
+    list-style: circle;
+}
+
+ol{
+    list-style: lower-alpha;
+    list-style: lower-roman;
+}
+
+h4+a{
+    background-color: red;
+}

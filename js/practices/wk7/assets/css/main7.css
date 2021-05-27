@@ -1,0 +1,179 @@
+*{
+    margin: .5em;
+}
+body{
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.classatt{
+    color: rgb(132, 18, 222);
+    font-family: "Times New Roman", Times, serif;
+}
+p{
+    margin-left: 2em;
+}
+#idatt{
+    font-size: 120%;
+    font-size: 1.4em;
+    font-size: 20px;
+}
+div>p{
+    font-size: 120%;
+    color: #0000ff;
+}
+p a{
+    background-color: lightblue;
+}
+div h3+p{
+    background-color: red;
+}
+/*h1,*/h2,h3,h4,h5,h2.classatt{
+    color: purple;
+    border-bottom: 1px solid gray;
+}
+p a[href="/index.html"]{
+    border: 4px dotted purple;
+}
+[href="../../../../index.html"]:hover{
+    border: 4px dotted purple;
+    background-color: transparent;
+}
+#oldLists ol li:first-child{
+    color: red;
+}
+#oldLists ol li:last-child{
+    color: blue;
+}
+#oldLists ol li:nth-child(2){
+    color: green;
+}
+#oldLists h5:first-letter{
+    font-size: 140%;
+    color: blue;
+}
+header{
+    font-size: 250%;
+    text-shadow: 4px 3px 4px blue;
+    border: 5px dashed blue;
+    color:darkcyan;
+    padding:  1em;/* 16 * 250% = 40; 1 * 40 =40 */
+    margin: 1.5em;/* 16 * 250% = 40; 1.5 * 40 =60 */
+    padding: .4em;/* 40 * .4 = 16 */
+    margin: .6em;/* 40 * .6 = 24 */
+    padding: 16px;
+    margin: 24px;
+    text-align: center;
+    background-image: url("../img/ahmed-abbas-rL-UGnNVy-Q-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#wrapper{
+    background-color: lightgoldenrodyellow;
+    border: 3px solid purple;
+    margin: 0 auto;
+    width: 1024px;
+}
+main, footer, aside, article{ /* added aside selector*/
+    border: 5px dashed blue;
+    padding:  1em;/* 16 * 1 = 16*/
+    margin: 1.5em;/* 16 * 1.5 = 24*/
+}
+figure{
+    overflow: hidden;
+}
+figure img{
+    width: 830px;
+    padding: 2px;
+    border: 10px solid black;
+}
+.button{
+    text-decoration: none;
+    border: 4px solid purple;
+    padding: 8px;
+    border-radius: 0px 30px 0px 30px;
+    border-radius: 30px;
+    /*box-shadow: 5px 5px 6px blue;*/ 
+    background-image: linear-gradient(to top, violet 0%, darkcyan 100%);
+    color:bisque;
+}
+
+nav p{
+    margin: 0;
+    margin-bottom: 1em;
+}
+aside{
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+main{
+    width: 62%;
+    float: right;
+}
+article{
+    clear: both;
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 2px solid black;
+}article h4{
+    column-span: all;
+    font-size:150%;
+ }
+ #logo{
+     width: 100px;
+     position: absolute;
+     left: 10px;
+     top: 10px;
+
+ }
+header{
+    position: relative; /* need to set the header position in order for the logo absolute position to work. */
+
+}
+@font-face {
+    font-family: articlefont;
+    src: url("../font/Newsreader-Regular.ttf");
+}
+article{
+    font-family: articlefont,sans-serif;
+}
+header{
+    font-family: 'Ranchers', cursive;
+}
+
+/*nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 12px;
+}
+nav li {
+    text-align: center;
+}*/
+nav li a.button:hover{
+    color: black;
+    border-color: black;
+}
+
+.roman {
+        list-style-type: lower-roman;
+}
+.circle {
+        list-style-type: square;
+}
+
+nav li {
+    text-align: center;
+}
+
+nav li a.button:focus {
+    color: black;
+    border-color: black;
+}

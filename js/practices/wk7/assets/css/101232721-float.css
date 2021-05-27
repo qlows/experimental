@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    border: 3px red solid;
+    background-color: lightblue;
+    height: 200px;
+    margin: 4px 4px 4px 4px;
+}
+
+main {
+    border: 3px red solid;
+    background-color: lightblue;
+    height: 200px;
+    margin: 4px 4px 4px 4px;
+    width: 70%;
+    float: left;}
+
+article {
+    border: 3px red solid;
+    background-color: lightblue;
+    height: 200px;
+    margin: 4px 4px 4px 10px;
+    width: 200px;
+    float: right;
+    /*clear: both;*/
+}
+
+
+aside {
+    border: 3px red solid;
+    background-color: lightblue;
+    height: 200px;
+    margin: 4px;
+    width: 200px;
+    float: right;
+   /* clear: both;*/
+
+}
+
+footer {
+    border: 3px red solid;
+    background-color: lightblue;
+    height: 200px;
+    margin: 4px 4px 4px 4px;
+    clear: both;
+}

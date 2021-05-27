@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>week 7</title>
+    <meta name="description" content="info description">
+    <meta name="keywords" content="info keywords">
+    <meta name="author" content="Umit Kilinc">
+    <link href="assets/img/favicon6.ico" rel="shortcut icon">
+    <link href="assets/css/main7.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="assets/img/gbc_logo.jpg" alt="GBC Logo" id="logo">
+            <h1>Block and inline elements.</h1>
+            <span style="color:white;font-size:30%;background-color: lightslategray;">Photo by <a href="https://unsplash.com/@ahmed12abbas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ahmed Abbas</a> on <a href="https://unsplash.com/s/photos/toronto-skyline?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+        </header>
+        
+        
+            <nav id="horizontal">
+                <a class="button" href="#footer">Images Section</a>
+                <a class="button" href="#news">News Section</a>
+                <a class="button" href="2col.html" target="_blank">Two column Fixed</a>
+                <a class="button" href="2col-fluid.html" target="_blank">Two Column Fluid</a>
+                
+            </nav>
+        
+        <main>
+            <p>This is just text.This is a block element.</p> <!-- This line is a block element. -->
+            <p>This is a block element with a <strong>bold</strong> inline element.</p>
+            <p>This is a block element with a <em><strong>bold and italic</strong></em> inline element.</p>
+
+            <p>This code allows the date to be displayed:</p>
+            <pre>
+                var today = new Date();
+                document.writeln( today.getFullYear() );
+            </pre>
+            <p style="background-color: lightgreen">Winston Churchill once said:</p>
+            <blockquote>Success is not final, failure is not fatal, it is the courage to continue that counts.</blockquote>
+            <p>Contact Azzad Kara &amp; George Brown College:</p>
+            <address>George Brown College - Casa Loma Campus<br>
+                146 Kendal Ave, Toronto, Ontario<br>
+                M5R 1M3<br>
+                <a href="emailto:azzad.kara@georgebrown.ca">azzad.kara@georgebrown.ca</a>
+            </address>
+
+            <br>
+            <hr>
+            <br>
+            <h2 class="classatt">Attributes</h2>
+            <p class="classatt">Class and ID are attributes the can be placed in a tag.</p>
+            <p class="classatt">A class selector identifies more than one tag to be grouped for use in CSS, javascript, etc....</p>
+            <p  class="classatt" id="idatt">A  ID attribute allows a unique name to be given to one tag for identification in CSS, javascript, etc....</p>
+            <br>
+            <hr>
+            <br>
+            <div>
+                <h3>Character entities.</h3>
+                <p>This is a less than sign &lt;</p>
+                <p>This is a copyright &copy;</p>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h4>Links</h4>
+            <a href="https://my.gblearn.com">My GBlearn</a><br>
+            <a href="week07_lab_practice.pdf" type="application/pdf" target="_blank">Read Lab Exercise</a>
+            <p> One of the best web sites to get infomation about HTML5 and CSS is <a href="https://www.w3schools.com/" access="w">W3 Schools</a></p>
+            <p> Link to my <a href="/index.html" title="Introduction Page"> introduction page on gblearn.root relative</a></p>
+            <p> Link to my <a href="../../../../index.html"> introduction page on gblearn.document relative</a></p>
+            <br>
+            <hr>
+            <p><a href="mailto:jdoe@cmail.ca?cc=cdoe2cmail.ca&subject=email%20from%20our%20webmaster&bodyAdd%20Here">Send mail to mailing list</a></p>
+            <br>
+            
+            <!-- enter new code -->
+            <section id="oldLists">
+            <h4>Lists of Colours</h4>
+            <h5>Unordered List</h5>
+            <ul>
+                <li style="color:red;">red</li>
+                <li><p>green</p></li>
+                <li><a href="https://en.wikipedia.org/wiki/Blue">blue</a></li>
+            </ul>
+            <h5>Ordered List</h5>
+            <ol>
+                <li>red</li>
+                <li>green</li>
+                <li>blue</li>
+            </ol>
+        </section>
+        
+        <hr>
+        <hr>
+        <figure>
+            <figcaption>Ordered lowercase List</figcaption>
+            <ol class="lowercase">
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+            </ol>
+        </figure>
+            <h5>Description List</h5>
+            <ol class="roman">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <ul class="circle">
+                    <li>Oranges</li>
+                    <li>Apples</li>
+                    <li>Bananas</li>
+                </ul>
+            </ol>
+            
+            <dl>
+                <dt>Faculty</dt>
+                <dd>comp1223</dd>
+                <dd>comp1176</dd>
+            
+                <dt>Students</dt>
+                <dd>Casa Loma</dd>
+                <dd>King</dd>
+            </dl>    
+        </main>
+        <article id="news">
+            <h4 id="lorem">Lorem Ipsum</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at sem consectetur, euismod nunc at, rhoncus turpis. Aenean placerat lorem non libero euismod, quis vestibulum leo porttitor. Ut semper hendrerit pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam est neque, congue et venenatis at, vehicula et dui. Sed vel augue quis tellus porttitor dapibus. Mauris in odio at mauris dapibus egestas in eget erat. Proin fringilla lobortis est quis elementum.</p>
+
+            <p>Cras venenatis elementum urna et faucibus. Cras finibus eros auctor arcu semper, ut efficitur eros mattis. Quisque interdum non ex non euismod. Maecenas aliquam massa sit amet turpis ullamcorper lobortis. Donec at erat ligula. Curabitur sollicitudin ipsum eget sem ornare, at condimentum elit luctus. Aenean sit amet libero nunc. Proin lacinia finibus porttitor. Cras leo libero, efficitur non bibendum at, pulvinar quis diam. Donec ornare accumsan ex id fermentum. In hac habitasse platea dictumst. Donec laoreet arcu vel felis ornare venenatis. Nam tristique quis ante quis accumsan. Sed dignissim sed ex nec mattis. Nam tempor justo id tincidunt luctus. Aliquam leo augue, elementum id urna vitae, aliquam rutrum mauris.</p>
+
+            <p>Duis condimentum bibendum leo, vel volutpat mauris mollis vitae. Phasellus lorem massa, consectetur sit amet elit eget, auctor egestas felis. Sed ultricies dui vitae urna pellentesque, vitae tempus tellus lobortis. Nam nibh nunc, elementum eu elementum ac, varius sed nisi. Sed a euismod felis. Integer magna mi, maximus varius varius tincidunt, viverra et diam. Etiam porta tempus dolor, ac elementum enim placerat vel. Proin ac quam risus. Pellentesque efficitur auctor tellus, vel dapibus leo finibus at. Morbi placerat suscipit euismod. Suspendisse hendrerit tincidunt commodo. Nam nec lectus elementum, commodo eros eget, egestas dui. Maecenas sagittis laoreet tincidunt. Donec euismod eros sed lacus commodo tempus in non neque. Mauris rutrum pellentesque metus sed feugiat. Phasellus sit amet lacinia tortor.</p>
+
+            <p>ed consectetur risus nibh, a tincidunt sapien vulputate eu. Morbi ultrices euismod lobortis. Phasellus convallis luctus quam. Nulla facilisi. Mauris sapien nulla, bibendum in lacinia nec, laoreet vel orci. Sed in iaculis ante. Pellentesque porttitor ex neque, id aliquam odio rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sollicitudin tempus bibendum. Duis quis felis at mauris imperdiet ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan efficitur neque aliquam mattis. Aenean molestie auctor accumsan. Mauris at ultrices sapien. Suspendisse viverra risus sed risus viverra tristique.</p>
+
+            <p>Proin pellentesque arcu lacus, congue viverra ligula consequat sed. Cras lacus nulla, cursus fermentum mauris gravida, dapibus ultricies ante. Curabitur eleifend nulla quam, vitae pulvinar massa volutpat vitae. Duis in est lacinia lectus malesuada condimentum eget ut nisi. Nulla maximus lacus metus, quis venenatis elit pharetra ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse risus mi, pretium in felis eget, condimentum sagittis dolor. Aliquam erat volutpat. Duis quis varius ipsum. Suspendisse ipsum eros, accumsan at interdum ut, convallis a lorem. Maecenas luctus accumsan est, fermentum pretium neque tincidunt et. Maecenas congue risus eu neque tincidunt iaculis. Nunc non bibendum massa. Aliquam varius lacus a vehicula ornare. Proin fringilla pharetra augue, eget malesuada mauris dictum nec.</p>
+
+            <p>Generated 5 paragraphs, 516 words, 3575 bytes of Lorem Ipsum</p>
+            <p>
+                <a class="button" href="#top">Top of page</a>
+            </p>
+        </article>
+        <footer id="footer">
+            <figure>
+                <img src="assets/img/folders_comp12236.jpg" alt="folder structure">
+                <figcaption>Fig.1 Folder Structure</figcaption>
+            </figure>
+            <img src="assets/img/kilimanjaro.jpg" alt="Mt.kilimanjaro">
+            <img src="assets/img/kilimanjaro.jpg" alt="Mt. kilimanjaro" height="130" width="200">
+            <p>
+                <a class="button" href="#top">Top of page</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>

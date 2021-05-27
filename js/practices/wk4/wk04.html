@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 04 CSS and HTML</title> <! shows in webpage-->
+    <meta name="keywords" content="week 04, lab, html,CSS,images,selectors,fonts,pseudo selectors">
+    <meta name="description" content="Lab for week 04.
+    This week CSS, images, selectors and exploring more advanced selectors for CSS.">
+    <meta name="author" content="Your Name">
+    <link href="favicon.ico" rel="shortcut icon"> <! shows in webpage-->
+    <link href="main2.css" rel="stylesheet"> <! link to CSS main -->
+
+</head>
+<body> <! html code -->
+<header> <! header first semantic element -->
+    <h1>Block and inline elements.</h1> <! gives title -->
+</header>
+<main> <! second semantic element, where all main information is kept (tags paragraph anchor -->
+    <p>This is text block element.</p> <!-- block element. -->
+    <p>This is a block element with a <strong>bold</strong> inline element.</p>
+    <p>This is a block element with a <em><strong>bold and italic</strong></em> inline element.</p>
+
+    <p>Current date displayed using script:</p>
+    <pre>
+            var today = new Date();
+            document.writeln( today.getFullYear() );
+
+           <p id="date"></p>
+            <script>
+                document.getElementById("date").innerHTML = Date();
+            </script>
+        </pre>
+    <br>
+    <hr>
+    <p style="background-color: darkcyan">Winston Churchill said:</p>
+    <blockquote>"Success is not final, failure is not fatal, it is the courage to continue that counts.”</blockquote>
+    <hr>
+    <p>How to contact YOUR LAB Prof &amp; George Brown College:</p>
+    <address>George Brown College - Casa Loma Campus<br>
+        146 Kendal Ave, Toronto, Ontario<br>
+        M5R 1M3<br>
+        <a href="emailto:azzad.kara@georgebrown.ca">azzad.kara@georgebrown.ca</a>
+    </address>
+
+    <br>
+    <hr>
+    <br>
+    <h2 class="classatt">Attributes</h2>
+    <p class="classatt">Class and ID are attributes that we can place in a tag.</p>
+    <p class="classatt">A class selector identifies more than one tag to be grouped for use in CSS, javascript, etc....</p>
+    <p  class="classatt" id="idatt">ID attribute allows a unique name to be given to one tag for identification in CSS, javascript, etc....</p>
+    <br>
+    <hr>
+    <br>
+    <div> <!-- div tag is parent tag to h3 and 3 paragraphs here-->
+        <h3>Character entities.</h3>
+        <p>Example of a symbol &lt;</p>
+        <p>copyright &copy;</p>
+        <p>&ldquo;Have a wonderful day&rdquo;</p>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h4>Links</h4> <!-- h4 and a-tag are siblings-->
+    <a href="https://my.gblearn.com">My GBlearn</a><br>
+    <p> Great website for HTML5 and CSS <a href="https://www.w3schools.com/">W3 Schools</a></p>
+    <p> Link to my <a href="/index.html"> introduction page on gblearn.root relative</a></p>
+    <p> Link to my <a href="../../../../index.html"> introduction page on gblearn.document relative</a></p>
+    <br>
+    <hr>
+    <br>
+    <h4>List of colors</h4>
+
+    <h5>unordered list</h5>
+    <ul>
+        <li>blue</li> <!-- li tags are child tags to h5 -->
+        <li>green</li>
+        <li>red</li>
+        <li><a> </a></li> <!-- anchor tag and href must be with li tag-->
+    </ul>
+
+    <ol>
+        <h5>ordered list</h5>
+        <li>blue</li> <!-- li tags are child tags to h5 -->
+        <li>green</li>
+        <li>red</li>
+        <li><a> </a></li> <!-- anchor tag and href must be with li tag-->
+    </ol>
+    <br>
+    <hr>
+    <br>
+</main>
+<footer> <! semantic element to caption images-->
+    <figure> <! envelopes images -->
+        <img src="folders_comp1223.jpg" alt="structure" height="300" width=400">
+        <figcaption>Figure 1 Folder Structure</figcaption>
+    </figure>
+    <img src="kilimanjaro.jpg" alt="Mount Kilimanjaro"> <! location of image is in same directory, called document relative -->
+    <img src="kilimanjaro.jpg" alt="Mount Kilimanjaro" height="130" width="200"> <! to adjust width and height
+    (not recommended, used photo editor instead-->
+</footer>
+
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>
