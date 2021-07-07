@@ -1,0 +1,16 @@
+C:\Users\kilin\Documents\qlows\c#\bin\Debug\net5.0\c#.exe
+C:\Users\kilin\Documents\qlows\c#\bin\Debug\net5.0\c#.deps.json
+C:\Users\kilin\Documents\qlows\c#\bin\Debug\net5.0\c#.runtimeconfig.json
+C:\Users\kilin\Documents\qlows\c#\bin\Debug\net5.0\c#.runtimeconfig.dev.json
+C:\Users\kilin\Documents\qlows\c#\bin\Debug\net5.0\c#.dll
+C:\Users\kilin\Documents\qlows\c#\bin\Debug\net5.0\ref\c#.dll
+C:\Users\kilin\Documents\qlows\c#\bin\Debug\net5.0\c#.pdb
+C:\Users\kilin\Documents\qlows\c#\obj\Debug\net5.0\c#.csproj.AssemblyReference.cache
+C:\Users\kilin\Documents\qlows\c#\obj\Debug\net5.0\c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kilin\Documents\qlows\c#\obj\Debug\net5.0\c#.AssemblyInfoInputs.cache
+C:\Users\kilin\Documents\qlows\c#\obj\Debug\net5.0\c#.AssemblyInfo.cs
+C:\Users\kilin\Documents\qlows\c#\obj\Debug\net5.0\c#.csproj.CoreCompileInputs.cache
+C:\Users\kilin\Documents\qlows\c#\obj\Debug\net5.0\c#.dll
+C:\Users\kilin\Documents\qlows\c#\obj\Debug\net5.0\ref\c#.dll
+C:\Users\kilin\Documents\qlows\c#\obj\Debug\net5.0\c#.pdb
+C:\Users\kilin\Documents\qlows\c#\obj\Debug\net5.0\c#.genruntimeconfig.cache
